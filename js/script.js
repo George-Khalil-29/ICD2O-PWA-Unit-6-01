@@ -19,16 +19,21 @@ const angleB = Math.acos((lengthC**2 + lengthA**2 - lengthB**2) / (2 * lengthC *
 const angleC = Math.acos((lengthA**2 + lengthB**2 - lengthC**2) / (2 * lengthA * lengthB)) * (180/Math.PI)
 
 const sumOfAngles = Number((angleA).toFixed(2)) + Number((angleB).toFixed(2)) + Number((angleC).toFixed(2))
+const angleKind = document.getElementById("angleKind")
 
+document.getElementById("angleKind").innerHTML = "The Triangle Kind Is: Isosceles Triangle" + (angleA === angleC)
+document.getElementById("angleKind").innerHTML = "The Triangle Kind Is: Scalene triangle" + (angleA != angleB != angleC)
+document.getElementById("angleKind").innerHTML = "The Triangle Kind Is: Equilteral Triangle" + (angleA === angleB === angleC)
 
 console.log(angleA)
 console.log(angleB)
 console.log(angleC)
 console.log(sumOfAngles)
+console.log(angleKind)
 
 document.getElementById("sumOfAngles").innerHTML = "The sum of Angles is:" + sumOfAngles.toFixed(2)
 document.getElementById("angleA").innerHTML = "Angle A is:" + angleA.toFixed(2)
 document.getElementById("angleB").innerHTML = "Angle B is:" + angleB.toFixed(2)
 document.getElementById("angleC").innerHTML = "Angle C is:" + angleC.toFixed(2)
-document.getElementById("angleKind").innerHTML = "Angle Kind is" + (angleA = angleC)
+
 }

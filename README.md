@@ -6,7 +6,7 @@
 
 [![Deploy Pages](https://github.com/MTHS-ICD2O-1-2023/ICD2O-Unit-5-05-George-Khalil-29/workflows/Deploy%20Pages/badge.svg)](https://github.com/MTHS-ICD2O-1-2023/ICD2O-Unit-5-05-George-Khalil-29/actions)
 
-This site can be found at: [https://MTHS-ICD2O-1-2023.github.io/ICD2O-Unit-5-05-George-Khalil-29](https://MTHS-ICD2O-1-2023.github.io/ICD2O-Unit-5-05-George-Khalil-29)
+This site can be found at:  https://george-khalil-29.github.io/ICD2O-PWA-Unit-6-01/
 
 ---
 
